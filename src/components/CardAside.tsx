@@ -13,7 +13,7 @@ export function CardAside() {
 
   async function getMe() {
     try {
-      const response = await fetch(`http://localhost:3000/users/0`);
+      const response = await fetch(`http://localhost:3000/me`);
       const data: me = await response.json();
       setMe(data);
     } catch (error) {
