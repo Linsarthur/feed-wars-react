@@ -48,12 +48,14 @@
       "publishedAt": "2023-10-15T13:00:00Z",
       "comments": [
         {
+          "id":1,
           "userId": 1,
           "content": "Darth Vader, você está perdendo a sua humanidade.",
           "publishedAt": "2023-10-15T13:00:00Z",
           "likes": 0
         },
         {
+          "id":2,
           "userId": 2,
           "content": "É hora de se redimir, Vader.",
           "publishedAt": "2023-10-15T13:00:00Z",
@@ -62,7 +64,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "userId": 1,
       "content": "A Força está conosco!",
       "hashtags": [
@@ -72,6 +74,7 @@
       "publishedAt": "2023-10-15T13:00:00Z",
       "comments": [
         {
+          "id":4,
           "userId": 0,
           "content": "Luke, um dia você vai entender o equilíbrio entre a luz e a escuridão.",
           "publishedAt": "2023-10-15T13:00:00Z",
@@ -80,7 +83,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 5,
       "userId": 2,
       "content": "Rebeldes, unam-se!",
       "hashtags": [
@@ -90,6 +93,7 @@
       "publishedAt": "2023-10-15T13:00:00Z",
       "comments": [
         {
+          "id":6,
           "userId": 1,
           "content": "Estamos com você, Leia.",
           "publishedAt": "2023-10-15T13:00:00Z",

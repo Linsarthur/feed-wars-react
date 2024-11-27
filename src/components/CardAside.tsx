@@ -3,11 +3,11 @@ import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 
 export type me = {
-  id: number
-  name: string
-  role: string
-  profileUrl: string
-}
+  id: number;
+  name: string;
+  role: string;
+  profileUrl: string;
+};
 export function CardAside() {
   const [me, setMe] = useState<me>();
 
@@ -29,7 +29,7 @@ export function CardAside() {
     <div className=" bg-zinc-800 flex flex-col h-full w-60 rounded-xl justify-start">
       <header>
         <img
-          src='darth2.jpg'
+          src="darth2.jpg"
           alt="darth vader"
           className="h-20 w-full rounded-xl"
         />
